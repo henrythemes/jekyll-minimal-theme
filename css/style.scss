@@ -29,7 +29,7 @@ a {
   strong {
     color: inherit;
   }
-  
+
   &:hover,
   &:focus {
     text-decoration: underline;
@@ -102,6 +102,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
+  border-left: .25rem solid $blockquote-border-color;
 }
 
 pre {
@@ -118,7 +119,7 @@ pre {
     color: inherit;
     background-color: transparent;
   }
-}  
+}
 
 
 /////////////////////
@@ -191,11 +192,11 @@ table {
     margin-top: 0;
     margin-bottom: 0;
     color: $masthead-color;
-  
+
     a {
       color: $masthead-color;
     }
-    
+
     small {
       color: $masthead-small-color;
       font-size: 75%;
@@ -231,5 +232,5 @@ table {
 }
 
 .post-date {
-  color: $post-date-color;  
+  color: $post-date-color;
 }
