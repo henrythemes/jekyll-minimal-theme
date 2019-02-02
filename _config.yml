@@ -7,10 +7,12 @@ author:
 
 ## note: 
 #  use site.path in your templates to make it work for both protocols e.g. http and https
-#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: /jekyll-minimal-theme  
-url:  'http://henrythemes.github.io/jekyll-minimal-theme'
+#  -> Input your Github Repository Name e.g : //myGithubID.github.com
 
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+#  -> Input your Full Github.io URL e.g : 'http://myGithubID.github.io/'
+path: //henrythemes.github.io/jekyll-minimal-theme
+url:  'http://henrythemes.github.io/'
 
 ########
 # more settings
